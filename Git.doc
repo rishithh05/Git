@@ -1,0 +1,192 @@
+What is Git?
+
+Git is a Distributed Version Control System (DVCS) used to track changes in source code and help developers collaborate on projects.
+
+In simple words:
+
+Git is a tool that records every change you make to your code, allowing you to go back to previous versions, work with a team, and manage multiple features without affecting the main project.
+
+
+
+Before Git, developers faced many problems:
+
+If someone accidentally deleted code, it was difficult to recover.
+Multiple developers editing the same files caused conflicts.
+There was no history of who changed what.
+Sharing code usually meant sending ZIP files or copying folders.
+Working on new features without affecting the existing application was difficult.
+
+Git solves all of these problems.
+
+What does Git help us with?
+1. Version Control
+
+Git saves every version of your project.
+
+Example:
+
+Version 1 -> Login Page
+Version 2 -> Registration Added
+Version 3 -> Forgot Password Added
+Version 4 -> Bug Fixed
+
+If version 4 has a bug, you can return to version 3.
+
+2. Track Changes
+
+Git records
+
+What changed
+Who changed it
+When it was changed
+Why it was changed (through commit messages)
+
+Example
+
+Commit 1
+Added Login API
+
+Commit 2
+Fixed NullPointerException
+
+Commit 3
+Added JWT Authentication
+
+So months later you can easily understand the project's history.
+
+3. Team Collaboration
+
+Suppose three developers are working.
+
+Developer A -> Login Module
+
+Developer B -> Payment Module
+
+Developer C -> Inventory Module
+
+All can work at the same time without overwriting each other's code.
+
+Git later combines (merges) everyone's work.
+
+4. Branching
+
+A branch is an independent copy of your code.
+
+Example
+
+Main Branch
+
+        |
+        |
+     feature/login
+
+        |
+     feature/payment
+
+        |
+     bugfix/inventory
+
+Each developer works in their own branch.
+
+When the work is complete, it is merged into the main branch.
+
+This keeps the main code stable.
+
+5. Backup
+
+Your code exists:
+
+On your local machine
+On a remote repository (such as GitHub, GitLab, or Bitbucket)
+
+Even if your laptop crashes, you can clone the project again from the remote repository.
+
+6. Easy Rollback
+
+Suppose today's code has a bug.
+
+Git lets you restore the project to a previous working version.
+
+Without Git, you might have to rewrite the code manually.
+
+7. Parallel Development
+
+Different features can be developed simultaneously.
+
+Example
+
+Main
+
+|
+|---- Feature Login
+
+|
+|---- Feature Payment
+
+|
+|---- Feature Search
+
+No one blocks another developer's work.
+
+8. Code Review
+
+Before merging code into the main branch, teammates can review it.
+
+This helps:
+
+Find bugs
+Improve code quality
+Ensure coding standards are followed
+Real-world Example
+
+Imagine you're building an Inventory Management System.
+
+Developer A:
+
+Product CRUD
+
+Developer B:
+
+Authentication
+
+Developer C:
+
+Reports
+
+Developer D:
+
+Swagger Documentation
+
+Without Git:
+
+Everyone edits the same project.
+Files get overwritten.
+Changes are lost.
+
+With Git:
+
+main
+
+|
+|---- feature/product
+
+|
+|---- feature/auth
+
+|
+|---- feature/report
+
+|
+|---- feature/swagger
+
+Each developer works independently. Once their work is tested and approved, it is merged into the main branch.
+
+Benefits of Git
+Tracks every code change.
+Allows multiple developers to work together.
+Prevents accidental loss of code.
+Makes it easy to restore older versions.
+Supports branching for feature development.
+Maintains a complete project history.
+Integrates with platforms like GitHub, GitLab, and Bitbucket.
+Enables code reviews and continuous integration (CI/CD).
