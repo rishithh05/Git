@@ -68,15 +68,7 @@ All can work at the same time without overwriting each other's code.
 
 Git later combines (merges) everyone's work.
 
-
-5. Backup
-
-Your code exists:
-
-On your local machine
-On a remote repository (such as GitHub, GitLab, or Bitbucket)
-
-Even if your laptop crashes, you can clone the project again from the remote repository.
+f your laptop crashes, you can clone the project again from the remote repository.
 
 6. Easy Rollback
 
