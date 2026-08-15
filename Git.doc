@@ -68,29 +68,6 @@ All can work at the same time without overwriting each other's code.
 
 Git later combines (merges) everyone's work.
 
-4. Branching
-
-A branch is an independent copy of your code.
-
-Example
-
-Main Branch
-
-        |
-        |
-     feature/login
-
-        |
-     feature/payment
-
-        |
-     bugfix/inventory
-
-Each developer works in their own branch.
-
-When the work is complete, it is merged into the main branch.
-
-This keeps the main code stable.
 
 5. Backup
 
