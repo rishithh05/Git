@@ -43,8 +43,7 @@ Why it was changed (through commit messages)
 
 Example
 
-Commit 1
-Added Login API
+
 
 Commit 2
 Fixed NullPointerException
@@ -78,11 +77,6 @@ Git lets you restore the project to a previous working version.
 
 Without Git, you might have to rewrite the code manually.
 
-7. Parallel Development
-
-Different features can be developed simultaneously.
-
-Example
 
 Main
 
