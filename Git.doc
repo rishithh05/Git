@@ -45,12 +45,6 @@ Example
 
 
 
-Commit 2
-Fixed NullPointerException
-
-Commit 3
-Added JWT Authentication
-
 So months later you can easily understand the project's history.
 
 3. Team Collaboration
