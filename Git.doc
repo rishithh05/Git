@@ -71,12 +71,7 @@ f your laptop crashes, you can clone the project again from the remote repositor
 
 6. Easy Rollback
 
-Suppose today's code has a bug.
-
-Git lets you restore the project to a previous working version.
-
-Without Git, you might have to rewrite the code manually.
-
+Suppose today's code ha of examples you may want to set up:
 
 Main
 
