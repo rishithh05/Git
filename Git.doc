@@ -73,16 +73,7 @@ f your laptop crashes, you can clone the project again from the remote repositor
 
 Suppose today's code ha of examples you may want to set up:
 
-Main
 
-|
-|---- Feature Login
-
-|
-|---- Feature Payment
-
-|
-|---- Feature Search
 
 No one blocks another developer's work.
 
